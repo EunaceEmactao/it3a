@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 //Database Connection
@@ -403,14 +402,11 @@ if($section==='borrow' && $action==='return'){
 
 
 ?>
-=======
->>>>>>> ed2d1a99f2c511f0dbf17e535cd5da40b4e10396
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
     <title>Library System</title>
 </head>
 <body>
@@ -881,12 +877,4 @@ if($section==='borrow' && $action==='return'){
 
 
 
-=======
-    <title>Document</title>
-</head>
-<body>
-    <h1>Hello Manager</h1>
-  <a href="<?= BASE_URL ?>/auth/signout.php">Sign Out</a>
-</body>
->>>>>>> ed2d1a99f2c511f0dbf17e535cd5da40b4e10396
 </html>
