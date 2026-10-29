@@ -1,3 +1,7 @@
+
+
+
+
 <?php
 
 //Database Connection
@@ -410,6 +414,7 @@ if($section==='borrow' && $action==='return'){
     <title>Library System</title>
 </head>
 <body>
+
     <h1>Simple Library System</h1>
     <nav>
         <a href="index.php?section=students">Students |</a>
@@ -875,6 +880,17 @@ if($section==='borrow' && $action==='return'){
 <?php endif; ?>
 
 
+</html>
 
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello Manager</h1>
+     <a href="../auth/signout.php">Sign Out</a>
+</body>
 </html>
